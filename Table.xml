@@ -1,0 +1,23 @@
+<table id="PremisesLiabilityPremiums_DF1_Vacant" separator="," tableType="local">
+<fields>
+<field name="Premium" type="int"/>
+</fields>
+<rowKeys find="eq" name="Limit" type="int">
+<key caption="No Coverage" value="0"/>
+<key caption="$25,000" value="25000"/>
+<key caption="$50,000" value="50000"/>
+<key caption="$100,000" value="100000"/>
+<key caption="$300,000" value="300000"/>
+<key caption="$500,000" value="500000"/>
+<key caption="$1,000,000" value="1000000"/>
+</rowKeys>
+<data>
+<row value="0"/>
+<row value="35"/>
+<row value="45"/>
+<row value="57"/>
+<row value="70"/>
+<row value="105"/>
+<row value="150"/>
+</data>
+</table>
